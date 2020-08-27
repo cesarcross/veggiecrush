@@ -5,7 +5,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const squares = [];
   let score = 0;
 
-  const candyColors = ["red", "yellow", "orange", "purple", "green", "blue"];
+  const candyColors = [
+    "url(images/red-candy.png)",
+    "url(images/yellow-candy.png)",
+    "url(images/orange-candy.png)",
+    "url(images/purple-candy.png)",
+    "url(images/green-candy.png)",
+    "url(images/blue-candy.png)",
+  ];
+
   //create your board
   function createBoard() {
     for (let i = 0; i < width * width; i++) {
